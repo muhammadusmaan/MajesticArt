@@ -1,0 +1,144 @@
+#members {
+  background-image: url("../../images/Background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+  padding-top: 6rem !important;
+}
+
+#members .member_image {
+  width: 360px;
+}
+
+#members .faisal_ali_qane {
+  font-size: 4em;
+  font-family: "Milane";
+  letter-spacing: 5px;
+  color: rgb(211, 172, 104);
+  line-height: 0;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  -moz-transform: matrix(1, 0, 0, 1, 0, 0);
+  -webkit-transform: matrix(1, 0, 1, 0, 0);
+  -ms-transform: matrix(1, 0, 0, 1, 0, 0);
+  z-index: 29;
+}
+
+#members .faisal_ali_qane1 {
+  color: rgb(26, 55, 66);
+}
+
+#members .chief_executive_officer {
+  font-size: 55px;
+  font-family: "Milane";
+  color: rgb(26, 55, 66);
+  /* line-height: 1.62; */
+  -moz-transform: matrix(0.74292411747852, 0, 0, 0.81105252999838, 0, 0);
+  -webkit-transform: matrix(0.74292411747852, 0, 0, 0.81105252999838, 0, 0);
+  -ms-transform: matrix(0.74292411747852, 0, 0, 0.81105252999838, 0, 0);
+  z-index: 27;
+}
+
+#members .chief_executive_officer1 {
+  color: rgb(211, 172, 104);
+}
+
+#members .member_para {
+  font-size: 31px;
+  font-family: "Myriad Pro";
+  color: rgb(32, 52, 70);
+  /* line-height: 1.677; */
+  -moz-transform: matrix(1.01361138420498, 0, 0, 1.10656264651199, 0, 0);
+  -webkit-transform: matrix(1.01361138420498, 0, 0, 1.10656264651199, 0, 0);
+  -ms-transform: matrix(1.01361138420498, 0, 0, 1.10656264651199, 0, 0);
+  z-index: 17;
+}
+
+#members .m_logo {
+  position: relative;
+  right: 100px;
+  bottom: 100px;
+}
+
+#members .line {
+  background-color: rgb(26, 55, 66);
+  width: 80%;
+  margin-left: 10%;
+  height: 1px;
+  z-index: 24;
+}
+
+#members .circular {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background-color: gray;
+  cursor: pointer;
+}
+
+#members .sidebar {
+  height: 90%;
+  width: 5%;
+  background-color: rgb(239, 198, 123);
+  opacity: 0;
+  transition: opacity 2s, width 2s;
+}
+
+#members .sidebar:hover {
+  opacity: 1;
+  width: 30%;
+}
+
+#members .sidebar > h1.name {
+  margin-top: 30%;
+}
+
+#members .sidebar > p.description {
+  margin-top: 10%;
+}
+
+#react-fullscreen-slideshow-view-slides-link,
+.react-fullscreen-slideshow-gallery-title,
+#react-fullscreen-slideshow-count {
+  color: black;
+}
+
+.modal-content {
+  /* padding: 5px;	 */
+  background-color: black;
+}
+
+.btn-close {
+  margin-left: auto;
+  padding-right: 20px;
+}
+.description-arrow {
+  position: absolute;
+  top: 0.5rem;
+  left: 10px;
+}
+.Buy-sell-sec {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+@media only screen and (min-width: 1441px) and (max-width: 2560px) {
+  #members .member_image {
+    width: 600px;
+  }
+  #members .faisal_ali_qane {
+    font-size: 10em;
+  }
+  #members .chief_executive_officer {
+    font-size: 7em;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #members .faisal_ali_qane {
+    font-size: 4em !important;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
+@media only screen and (max-width: 600px) {
+  #members .faisal_ali_qane {
+    font-size: 3em !important;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
